@@ -20,21 +20,22 @@ The demand for rental housing decreased from 12.3% to 11.1% in mid-2022, and is 
 
 <h2>1. Rental “demand” investigation: </h2>
 
-The housing manager has the following question: which characteristics of a property determine the level of customer demand? To answer this, the manager proposes looking into the following:</br>
-a.	Which of the “discrete variables” (e.g. bedrooms, smoking_allowed) have the potential to predict a “low demand” property? Do these variables also have the potential to predict a “high demand” property?</br>
-b.	Ascertain if there is a correlation (either positive or negative) between the “demand” for a property and its “rent” and “type”.  </br>
-c.	Identify if the size of the property “sqfeet” has an optimal range for generating high “demand”. </br>
-You should utilize Weka and build a classifier or regression model to perform this analysis. </br>
+The housing manager has the following question: which characteristics of a property determine the level of customer demand? To answer this, the manager proposes looking into the following:</br><p></p>
+a.	Which of the “discrete variables” (e.g. bedrooms, smoking_allowed) have the potential to predict a “low demand” property? Do these variables also have the potential to predict a “high demand” property?</br><p></p>
+b.	Ascertain if there is a correlation (either positive or negative) between the “demand” for a property and its “rent” and “type”.  </br><p></p>
+c.	Identify if the size of the property “sqfeet” has an optimal range for generating high “demand”. </br><p></p>
+You should utilize Weka and build a classifier or regression model to perform this analysis. </br><p></p>
 <h2>2. Storing data and scalable solutions: </h2>	
 <h3>Part 1: Design a relational database </h3>	
 
-The housing manager is considering an alternative to the current flat file (CSV) system that stores the majority of their data. You have been tasked with designing a relational database to store the provided dataset ‘Housing’ in the flat file system. You will need to decide, and justify, which features to include and/or adapt to store all the provided data. To allow the housing manger to assess the feasibility of this you should provide the following:</br>
-
-a.	Produce a database design (in the form of a UML standard ER diagram with normalization to 3NF) for the given data. </br>
-b.	Present sample SQL for the database you have created (given your ER diagram diagram) as follows:</br>
-i.	Demonstrate the SQL that you would write to enter a new line of data, covering all relevant attributes.  </br>
-ii.	Extract the ‘description’ for all properties with a rent equal to or less than 1000*, allows both cats and dogs, and is in the state represented by ‘ca’.</br>
-iii.	Extract the average rental value for each state so they can be compared.  </br>
+The housing manager is considering an alternative to the current flat file (CSV) system that stores the majority of their data. You have been tasked with designing a relational database to store the provided dataset ‘Housing’ in the flat file system. You will need to decide, and justify, which features to include and/or adapt to store all the provided data. To allow the housing manger to assess the feasibility of this you should provide the following:</br><p></p>
+<ol>
+<li>Produce a database design (in the form of a UML standard ER diagram with normalization to 3NF) for the given data. </br></li>
+<li>Present sample SQL for the database you have created (given your ER diagram diagram) as follows:</br><p></p><ol>
+<li>Demonstrate the SQL that you would write to enter a new line of data, covering all relevant attributes.  </br></li>
+<li>Extract the ‘description’ for all properties with a rent equal to or less than 1000*, allows both cats and dogs, and is in the state represented by ‘ca’.</br></li>
+<li>Extract the average rental value for each state so they can be compared.</br></li>
+</ol></li>
 * No currency is specified in the dataset. </br>
 
 <h3>Part 2: Consider scaling </h3>	
