@@ -3,11 +3,11 @@ A project to analyze declining rental demand in housing and proposals for scalab
 
 <h2>Contents: </h2>
 
-analyzer.py: contains python application for csv data cleaning and manipulation.
-project-report.pdf: Details the process and steps taken for each task and provide scalability solutions.
-arff-files: sets of arff files used to analyze data in Weka and build predictive models
-csv-files: original csv dataset
-diagram-and-results: diagrams created for the relational models and results gained from analysis of data in Weka
+<strong>analyzer.py:</strong> contains python application for csv data cleaning and manipulation.</br>
+<strong>project-report.pdf:</strong> Details the process and steps taken for each task and provide scalability solutions.</br>
+<strong>arff-files:</strong> sets of arff files used to analyze data in Weka and build predictive models.</br>
+<strong>csv-files:</strong> original csv dataset.</br>
+<strong>diagram-and-results:</strong> diagrams created for the relational models and results gained from analysis of data in Weka.</br>
 
 <h2>Project Statement: </h2>
 
