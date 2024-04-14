@@ -2,12 +2,18 @@
 A project to analyze declining rental demand in housing and proposals for scalability of csv in-house databases to SQL
 
 <h2>Contents: </h2>
+<ul>
+<li><strong>analyzer.py:</strong> contains python application for csv data cleaning and manipulation.</li>
+<li><strong>project-report.pdf:</strong> Details the process and steps taken for each task and provide scalability solutions.</li>
+<li><strong>arff-files:</strong> sets of ARFF files used to analyze data in Weka and build predictive models.</li>
+<li><strong>csv-files:</strong> original CSV dataset.</li>
+<li><strong>diagram-and-results:</strong> diagrams created for the relational models and results gained from analysis of data in Weka.</li>
+</ul>
 
-<strong>analyzer.py:</strong> contains python application for csv data cleaning and manipulation.</br>
-<strong>project-report.pdf:</strong> Details the process and steps taken for each task and provide scalability solutions.</br>
-<strong>arff-files:</strong> sets of ARFF files used to analyze data in Weka and build predictive models.</br>
-<strong>csv-files:</strong> original CSV dataset.</br>
-<strong>diagram-and-results:</strong> diagrams created for the relational models and results gained from analysis of data in Weka.</br>
+
+
+
+
 
 <h2>Project Statement: </h2>
 
@@ -23,13 +29,14 @@ The demand for rental housing decreased from 12.3% to 11.1% in mid-2022, and is 
 The housing manager has the following question: which characteristics of a property determine the level of customer demand? To answer this, the manager proposes looking into the following:</br><p></p>
 
 <ol>
-<li>Which of the “discrete variables” (e.g. bedrooms, smoking_allowed) have the potential to predict a “low demand” property? Do these variables also have the potential to predict a “high demand” property?</br><p></p></li>
-<li>Ascertain if there is a correlation (either positive or negative) between the “demand” for a property and its “rent” and “type”. </br><p></p>
-<li>Identify if the size of the property “sqfeet” has an optimal range for generating high “demand”. </br></li>
+<li>Which of the “discrete variables” (e.g. bedrooms, smoking_allowed) have the potential to predict a “low demand” property? Do these variables also have the potential to predict a “high demand” property?<p></p></li>
+<li>Ascertain if there is a correlation (either positive or negative) between the “demand” for a property and its “rent” and “type”.<p></p>
+<li>Identify if the size of the property “sqfeet” has an optimal range for generating high “demand”.</li>
 </ol>
 
-You should utilize Weka and build a classifier or regression model to perform this analysis. </br><p></p>
+You should utilize Weka and build a classifier or regression model to perform this analysis.</br>
 <h2>2. Storing data and scalable solutions: </h2>	
+
 <h3>Part 1: Design a relational database </h3>	
 
 The housing manager is considering an alternative to the current flat file (CSV) system that stores the majority of their data. You have been tasked with designing a relational database to store the provided dataset ‘Housing’ in the flat file system. You will need to decide, and justify, which features to include and/or adapt to store all the provided data. To allow the housing manger to assess the feasibility of this you should provide the following:</br><p></p>
@@ -41,7 +48,7 @@ The housing manager is considering an alternative to the current flat file (CSV)
 <li>Extract the average rental value for each state so they can be compared.</br></li>
 </ol></li>
 </ol>
-* No currency is specified in the dataset. </br>
+* No currency is specified in the dataset.</br>
 
 <h3>Part 2: Consider scaling </h3>	
 
