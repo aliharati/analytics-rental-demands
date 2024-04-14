@@ -1,23 +1,22 @@
 # analytics-rental-demands
 A project to analyze declining rental demand in housing and proposals for scalability of csv in-house databases to SQL
 
+<h2>Contents: </h2>
 
-# Contents:
 analyzer.py: contains python application for csv data cleaning and manipulation.
 project-report.pdf: Details the process and steps taken for each task and provide scalability solutions.
 arff-files: sets of arff files used to analyze data in Weka and build predictive models
 csv-files: original csv dataset
 diagram-and-results: diagrams created for the relational models and results gained from analysis of data in Weka
 
+<h2>Project Statement: </h2>
 
-# Project Statement:
 The demand for rental housing decreased from 12.3% to 11.1% in mid-2022, and is predicted to further decline to 4.5% by the end of 2024 [1]. A company housing manager is concerned by this downward trend, and you have been assigned tasks to identify and investigate three problem areas and develop potential solutions to these problems. You are required to utilize the data mining techniques (regression/classification) and tools (WEKA version 3.8.5) that have been taught in the Big Data Analytics module and only use the “Housing” data set provided, which can be cleaned and used to generate specific output. 
 
-Reference:</br>
+<strong>Reference:</strong></br>
 [1] R. Donnell (2023, Nov. 3). Rental Market report: what’s happening to rents? [Online]. Available: https://www.zoopla.co.uk/discover/property-news/rental-market-report-march-2023/ [Accessed: Nov. 3, 2023]
 
 
-# Tasks:
 
 <h2>1. Rental “demand” investigation: </h2>
 
@@ -42,7 +41,7 @@ iii.	Extract the average rental value for each state so they can be compared.
 
 The housing manger is also considering longer term solutions for their business, given their intention to set up international offices across the globe. This would generate considerably more data (tens of megabytes). To be able to utilize this data effectively requires a rapid-response system for the business to be responsive in a global rental environment. Assume certain messages are required to be sent as soon as certain automated analysis results are returned of a certain value (e.g. a count of items of a particular type exceeds a pre-determined threshold). With reference to specific details in the data set, present a way that you could use appropriate technologies to spread the load over multiple computers and justify why this would be a good approach.
 
-<h2>1.Considering public-facing application:  </h2>	
+<h2>3. Considering public-facing application:  </h2>	
 
 The housing manager is considering the development of a public-facing application, to assist in promoting the expansion of his business, and to make it easier for potential clients to view and select from current offerings. As part of this, he is also considering capturing (via an online form) the personal details of potential clients so he can provide recommendations to revisiting clients.  
 
