@@ -23,9 +23,9 @@ The demand for rental housing decreased from 12.3% to 11.1% in mid-2022, and is 
 The housing manager has the following question: which characteristics of a property determine the level of customer demand? To answer this, the manager proposes looking into the following:</br><p></p>
 
 <ol>
-<li>Which of the “discrete variables” (e.g. bedrooms, smoking_allowed) have the potential to predict a “low demand” property? Do these variables also have the potential to predict a “high demand” property?</br></li>
-<li>Ascertain if there is a correlation (either positive or negative) between the “demand” for a property and its “rent” and “type”.  </br>
-<li>Identify if the size of the property “sqfeet” has an optimal range for generating high “demand”. </br>></li>
+<li>Which of the “discrete variables” (e.g. bedrooms, smoking_allowed) have the potential to predict a “low demand” property? Do these variables also have the potential to predict a “high demand” property?</br><p></p></li>
+<li>Ascertain if there is a correlation (either positive or negative) between the “demand” for a property and its “rent” and “type”. </br><p></p>
+<li>Identify if the size of the property “sqfeet” has an optimal range for generating high “demand”. </br></li>
 </ol>
 
 You should utilize Weka and build a classifier or regression model to perform this analysis. </br><p></p>
