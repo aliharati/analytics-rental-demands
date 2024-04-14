@@ -21,9 +21,13 @@ The demand for rental housing decreased from 12.3% to 11.1% in mid-2022, and is 
 <h2>1. Rental “demand” investigation: </h2>
 
 The housing manager has the following question: which characteristics of a property determine the level of customer demand? To answer this, the manager proposes looking into the following:</br><p></p>
-a.	Which of the “discrete variables” (e.g. bedrooms, smoking_allowed) have the potential to predict a “low demand” property? Do these variables also have the potential to predict a “high demand” property?</br><p></p>
-b.	Ascertain if there is a correlation (either positive or negative) between the “demand” for a property and its “rent” and “type”.  </br><p></p>
-c.	Identify if the size of the property “sqfeet” has an optimal range for generating high “demand”. </br><p></p>
+
+<ol>
+<li>Which of the “discrete variables” (e.g. bedrooms, smoking_allowed) have the potential to predict a “low demand” property? Do these variables also have the potential to predict a “high demand” property?</br></li>
+<li>Ascertain if there is a correlation (either positive or negative) between the “demand” for a property and its “rent” and “type”.  </br>
+<li>Identify if the size of the property “sqfeet” has an optimal range for generating high “demand”. </br>></li>
+</ol>
+
 You should utilize Weka and build a classifier or regression model to perform this analysis. </br><p></p>
 <h2>2. Storing data and scalable solutions: </h2>	
 <h3>Part 1: Design a relational database </h3>	
@@ -36,6 +40,7 @@ The housing manager is considering an alternative to the current flat file (CSV)
 <li>Extract the ‘description’ for all properties with a rent equal to or less than 1000*, allows both cats and dogs, and is in the state represented by ‘ca’.</br></li>
 <li>Extract the average rental value for each state so they can be compared.</br></li>
 </ol></li>
+</ol>
 * No currency is specified in the dataset. </br>
 
 <h3>Part 2: Consider scaling </h3>	
